@@ -9,6 +9,7 @@ resource "aws_instance" "web" {
   tags = merge (var.tags,{
     Name = "${var.tags["project"]}-${var.tags["application"]}-${var.tags["environment"]}-web-server"
 })
+
 }
 
 

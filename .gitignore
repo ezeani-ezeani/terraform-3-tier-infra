@@ -33,5 +33,5 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-extra-topics
-extra-topics/*
+extra-points
+extra-points/*
